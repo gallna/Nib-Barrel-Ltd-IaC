@@ -1,1 +1,26 @@
+# Gitignore for Nib-Barrel Ltd IaC
 GEMINI.md
+.gemini
+
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfvars
+!*.example.tfvars
+.terraform.lock.hcl
+
+# Crash logs
+crash.log
+crash.*.log
+
+# Checkov
+.checkov.baseline
+
+# OS & IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*~
