@@ -1,0 +1,13 @@
+# Capacity & Sizing Model
+* [Sekcja 1: Założenia Architektoniczne i Capacity Planning](./01-architectural-assumptions.md)
+* [Sekcja 2: Topologia Regionalna, Sieć i Routing Globalny](./02-regional-topology-network.md)
+* [Sekcja 3: Warstwa Obliczeniowa — Amazon ECS](./03-compute-ecs-domain-isolation.md)
+* [Sekcja 4: Warstwa Danych, Buforowanie i Połączenia](./04-data-caching-connections.md)
+* [Sekcja 5: Ścieżki Krytyczne (/stats, /auth, /payments)](./05-critical-business-paths.md)
+* [Sekcja 6: Integracje 3rd-Party, Tożsamość, Odporność](./06-external-integrations-resilience.md)
+* [Sekcja 7: Odporność, HA i Disaster Recovery](./07-resilience-ha-dr.md)
+* [Sekcja 8: Bezpieczeństwo, GDPR, Potok BI i LiveOps](./08-security-gdpr-bi-liveops.md)
+* [Sekcja 9: Observability, SRE i Zarządzanie Incydentami](./09-observability-sre-incidents.md)
+* [Sekcja 10: Strategia Środowisk (Dev, Staging, Perf/Opt)](./10-environments-test-data.md)
+* [Sekcja 11: CI/CD, IaC i Organizacja Zespołów](./11-cicd-iac-team-org.md)
+* [Sekcja 12: Kompromisy, Ryzyka i Ścieżka Ewolucji](./12-tradeoffs-risks-evolution.md)
